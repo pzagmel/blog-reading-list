@@ -8,7 +8,6 @@ return (
 <div className="container">
 <h1>{title}</h1>
         <div className="row overflow-auto flex-nowrap"> 
-
           {data.map((card,index) => {
             return (
               <div className="col">
